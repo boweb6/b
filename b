@@ -3,7 +3,7 @@ local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/blo
 
 local MainUI = UILibrary.Load("boweb X")
 local MainPage = MainUI.AddPage("Main")
-local Page = MainUI.AddPage("Combat")
+local CombatPage = MainUI.AddPage("Combat")
 local teleportPage = MainUI.AddPage("Teleports")
 local AimlockPage = MainUI.AddPage("Aimlock")
 local FunstuffPage = MainUI.AddPage("Fun Stuff")
@@ -369,9 +369,6 @@ end)
 
 ---------------
 -- Combat Nigger
-local FirstButton = CombatPage.AddButton("target", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
-end)
 local FirstButton = CombatPage.AddButton("Inf-Jump", function()
     local player = game.Players.LocalPlayer
     local spacedown = false
@@ -2372,15 +2369,15 @@ local CreditsButton = CreditsPage.AddButton("boweb.#0046 - Developer", function(
     setclipboard("boweb.#0046") 
 end)
 
-local CreditsButton = CreditsPage.AddButton("boweb.#0046 - Owner", function()
-    setclipboard("boweb.#0046") 
+local CreditsButton = CreditsPage.AddButton("xz#0001 - Owner", function()
+    setclipboard("xz#0001") 
 end)
 
 local TargetButton = TargetPage.AddButton("Target UI", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
 end)
 
-local autofarmbutton = autofarm.AddButton("ATM Autofarm", function()
+local autofarmbutton = autofarm.AddButton("ATM Autofarm coming soon", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
 
@@ -2535,7 +2532,7 @@ DisableMod = false
 if ifMod[player.UserId] then
     IsMod = true
     DisableMod = false
-    game.StarterGui:SetCore("SendNotification", {Title = "Dimag X", Text = "Mod Perms Granted, thanks for buying!", Icon = "rbxassetid://505845268", Duration = 9, Button1 = "Alright, Thank you!"})
+    game.StarterGui:SetCore("SendNotification", {Title = "boweb x", Text = "Mod Perms Granted, thanks for buying!", Icon = "rbxassetid://505845268", Duration = 9, Button1 = "Alright, Thank you!"})
 else
     IsMod = true
 end

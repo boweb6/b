@@ -610,7 +610,7 @@ end)
 
 ---------------
 
-local SecondButton = AimlockPage.AddButton("Dimag Aimlock (Q)", function()
+local SecondButton = AimlockPage.AddButton("boweb x Aimlock (Q)", function()
     _G.KEY = "q"
     _G.PART = "LowerTorso"
     _G.PRED = 0.037
